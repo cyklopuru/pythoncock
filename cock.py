@@ -3,7 +3,7 @@ from edupage_api import Edupage
 edupage = Edupage()
 
 try:
-    edupage.login("kai.olkowicz", "Kolkowicz12.", "medienberufe.edupage.org")
+    edupage.login("kai.olkowicz", "Kolkowicz12.", "medienberufe")
 except BadCredentialsException:
     print("Wrong username or password!")
 except LoginDataParsingException:
